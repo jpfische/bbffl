@@ -1,0 +1,52 @@
+header h5 {
+    color: white;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px 2px #888888;
+    padding: 0px;
+    margin: 20px;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+
+
+/* Start Media Queries */
+
+/* Cell Phone */
+
+@media screen and (max-width: 600px) {
+
+}
+  
+@media screen and (max-width: 600px) {
+
+}
+
+/* End Cell Phone */
+
+/* Tablet */
+  
+@media (min-width: 768px) {
+
+.card {
+    margin: 20px;
+}
+
+}
+  
+  /* End Tablet */
+  
+  /* Desktop */
+  
+  @media (min-width: 1025px) {
+  
+  }
+  
+  /* End Desktop */

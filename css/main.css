@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.banner {
+    width: 100%;
+}
+
+header {
+  background-color:#343a40!important;
+  color: #343a40!important;
+  border-radius: 10px 10px 0px 0px;
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+}
+
+body {
+    background-color: #edeef0;     
+}
+
+footer {
+    margin-top: 10px;
+    color: white;
+}
+
+.container {
+    padding-top: 25px;
+}
+
+.card {
+    border: none;
+}
+
+button {
+    background-color: #343a40!important;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.box-shadow {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 10px 2px #888888;
+}
+
+.content-padding {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.center-text {
+  text-align: center;
+}
+
+/* Start Media Queries */
+
+/* Cell Phone */
+
+@media screen and (max-width: 600px) {
+
+}
+  
+@media screen and (max-width: 600px) {
+
+}
+
+/* End Cell Phone */
+
+/* Tablet */
+  
+@media (min-width: 768px) {
+
+.box-shadow {
+    margin-bottom: 0px;
+}
+  
+}
+  
+  /* End Tablet */
+  
+  /* Desktop */
+  
+  @media (min-width: 1025px) {
+  
+  }
+  
+  /* End Desktop */

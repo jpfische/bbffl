@@ -1,0 +1,102 @@
+table {
+  margin-top: 15px;  
+  border: 2px solid black;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+tr,
+td {
+  border: 1px solid black;
+  text-align: center;
+}
+
+.table-header {
+  background-color: #d6d6c2;
+  font-weight: bold;
+}
+
+.playoffs {
+  background-color: #99ff99;
+}
+
+.loser {
+  background-color: #ff9999;
+}
+
+/* Start Media Queries */
+
+/* Cell Phone */
+
+@media screen and (max-width: 600px) {
+
+.hide-scores {
+    display: none;    
+}
+
+.side2 {
+    padding-bottom: 15px;
+}
+
+}
+  
+@media screen and (max-width: 600px) {
+
+}
+
+/* End Cell Phone */
+
+/* Tablet */
+  
+@media (min-width: 768px) {
+
+.wrapper {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}
+
+.side1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.content {
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.side2 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+.side3 {
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 3
+}
+
+table {
+    margin-top: 50px;
+}
+
+}
+  
+  /* End Tablet */
+  
+  /* Desktop */
+  
+  @media (min-width: 1025px) {
+  
+  }
+  
+  /* End Desktop */
