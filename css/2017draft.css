@@ -9,7 +9,7 @@ table {
 }
 
 th {
-  font-size: 1.5em;
+  font-size: 1em;
   padding: 5px;
   width: 115px;
 }
@@ -24,7 +24,9 @@ tr {
 }
 
 td {
+  font-size: .75em;
   white-space: nowrap;
+  padding: 3px;;
 }
 
 .blank-cell {
