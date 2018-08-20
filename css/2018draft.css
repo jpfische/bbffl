@@ -44,9 +44,9 @@ td {
 }
 
   /* Comment out after draft */
-  .draft-board-2018 td:nth-child(n+2) {
+  /* .draft-board-2018 td:nth-child(n+2) {
     background-color: #c2d6d6;
-  }
+  } */
   
   sup {
     color: white;
